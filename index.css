@@ -4,52 +4,112 @@
 	box-sizing: border-box;
 }
 
-.bg-image {
-	width: 100vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	filter: brightness(0.6);
+body {
+	font-family: "Chivo Mono", "consolas", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+div	{
+	overflow: hidden;
+}
+
+.background{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
 
 .navbar {
 	transition: all 0.5s;
-	width: 100vw;
+}
+
+.img-fluid {
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+.landing-h1 {
+	font-weight: bolder;
+	font-size: 4rem;
+}
+
+.landing-div {
+	margin: 2rem;
+}
+
+.headerprojects {
+	font-weight: bolder;
+}
+
+.about-title {
+	font-weight: bolder;
+}
+
+#about {
+	min-height: 100vh;
+	color: white;
 }
 
 #projects {
-	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 }
 
-#me {
-	width: 100vw;
-	height: 100vh;
+.aboutme-h{
+	border: black;
+	border-bottom: 2px solid;
+	display: inline-block;
+	margin-bottom: 2rem;
+	font-size: 5rem;
+}
+
+.aboutme-bg {
+ 		min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("./images/sunrise.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #contact {
-	width: 100vw;
-	height: 100vh;
+	min-height: 95vh;
 }
 
-.photo-border-about {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
-  border-radius: 100%;
-  background-color: black;
-  width: calc(100% + 20px); /* add 20px to the width to make it slightly bigger */
-  height: calc(100% + 20px); /* add 20px to the height to make it slightly bigger */
+.aboutme-p1 {
+	text-shadow: 2px 2px #252b2b;
 }
 
-.photo-border-about img {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  max-height: 100%;
+.footer-p2 {
+	margin-left: auto;
+}
+
+#footer{
+	text-align: center;
+}
+
+.headerprojects {
+	border: black;
+	border-bottom: 2px solid;
+	display: inline-block;
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	color: white;
+}
+
+#connect-title {
+	font-weight: bolder;
+	border: white;
+	border-bottom: 2px solid;
+	display: inline-block;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+
 }
