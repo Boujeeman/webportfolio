@@ -85,6 +85,7 @@ div	{
 
 .aboutme-p1 {
 	text-shadow: 2px 2px #252b2b;
+	font-size: 2rem;
 }
 
 .footer-p2 {
@@ -112,4 +113,15 @@ div	{
 	margin-bottom: 2rem;
 	font-size: 4rem;
 
+}
+
+.aboutme-h3-2 {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	text-shadow: 2px 2px #252b2b;
+}
+
+.aboutme-h3s {
+	font-size: 3rem;
+	text-shadow: 2px 2px #252b2b;
 }
