@@ -53,7 +53,6 @@ div	{
 }
 
 #about {
-	min-height: 100vh;
 	color: white;
 }
 
@@ -70,7 +69,6 @@ div	{
 }
 
 .aboutme-bg {
- 		min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     background-image: url("./images/sunrise.jpg");
     background-repeat: no-repeat;
@@ -80,7 +78,7 @@ div	{
 }
 
 #contact {
-	min-height: 95vh;
+
 }
 
 .aboutme-p1 {
@@ -111,8 +109,12 @@ div	{
 	border-bottom: 2px solid;
 	display: inline-block;
 	margin-bottom: 2rem;
-	font-size: 4rem;
+	font-size: 3rem;
+}
 
+.aboutme-h3-1 {
+	font-size: 3rem;
+	text-shadow: 2px 2px #252b2b;
 }
 
 .aboutme-h3-2 {
@@ -120,8 +122,6 @@ div	{
 	font-size: 3rem;
 	text-shadow: 2px 2px #252b2b;
 }
+.aboutme-text {
 
-.aboutme-h3s {
-	font-size: 3rem;
-	text-shadow: 2px 2px #252b2b;
 }
